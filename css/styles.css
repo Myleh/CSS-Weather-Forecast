@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+/* Main Styles */
+body {
+	font: 400 22px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #fff;
+	background: #3399cc;
+	border: 25px solid #2b81ac;
+}
+.container {
+	max-width: 1025px;
+	min-width: 400px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.header, .footer {
+	padding: 30px 0;
+}
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.header h1, .header .wi {
+	vertical-align: middle;
+}
+main {
+	box-sizing: border-box;
+	background: #fff;
+	padding: 3px;
+}
+.cities{
+	font-size: 0px;
+}
+.cities:hover > li  {
+	opacity: 0.5;
+}
+.cities li {
+	width: 25%;
+	font-size: 26px;
+	font-weight: 500;
+	text-align: center;
+	border: 3px solid #fff;
+	display: inline-block;
+	padding: 30px 10px;
+	vertical-align: middle;
+}
+.cities li:hover {
+	opacity: 1;
+}
+.cities li:nth-child(8n+1) {
+	width: 50%;
+}
+.cities li:last-child {
+	width: 100%;
+}
+.city__name {	
+	margin-bottom: 15px;
+}
+.temperature::after {
+	content: '°C';
+}
+.cities li .wi {
+	font-size: 40px;
+}
+.cities li .temperature, .cities li .wi{
+	display: inline-block;
+	vertical-align: middle;
+	color: rgba(255, 255, 255, 0.7);
+}
+.city__Lisabon {
+	background:#3399cc ;
+}
+.city__Paris {
+	background: #33cccc;
+}
+.city__Belgrade {
+	background: #996699;
+}
+.city__Moscow {
+	background: #c24747;
+}
+.city__TelAviv {
+	background: #e2674a;
+}
+.city__Cair {
+	background: #ffcc66 ;
+}
+.city__NewYork {
+	background: #99cc99 ;
+}
+.city__NewDelhi{
+	background: #669999 ;
+}
+.city__SanFrancisco {
+	background: #cc6699 ;
+}
+.city__Tokyo {
+	background: #339966 ;
+}
+.city__Sydney {
+	background: #666699 ;
+}
+
+
+
+
